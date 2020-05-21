@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Gaidot dzimšanas dienu</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+        <style>
+            DIV { line-height: 1.2em; font-size: 10pt } 
+        </style>
+    
+    </head>
+    <body>
+        <h1>Gaidot dzimšanas dienu</h1>
+        <hr style="width: 100%; height: 4px">
+        <form>
+            <p>Ievadi pilnu datumu, kad Tev būs tuvākā dzimšanas diena</p>
+            <div>
+                <p> 1.Gads</p>
+                <input type="text" name="gads"> 
+            </div>
+            <div>
+                <p> 2.Mēnesis</p>
+                <input type="text" name="menesis">
+            </div>
+            <div>
+                <p> 3.Diena</p>
+                <input type="text" name="datums">
+            </div>            
+            <div>
+                <input type="button" name="poga" value="Aprēķināt dienu skaitu līdz dzimšanas dienai" onclick="dienas()">
+
+            </div>
+            <p>Līdz svētkiem atlikušas</p>
+            <div>
+                <input type="text" name="dienas">  dienas : ))
+            </div>
+
+        </form>
+
+    </body>
+</html>
